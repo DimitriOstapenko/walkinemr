@@ -1,0 +1,55 @@
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Walk-In EMR</h4>
+            <p>
+              147 Crestview Avenue <br>
+              Ancaster, Ontario<br>
+              Canada <br><br>
+              <strong>WhatsApp:</strong> +33 6 99 43 66 91<br>
+              <strong>Email:</strong> dosta@me.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i><a href="/#hero" class="nav-link scrollto">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="/#about" class="nav-link scrollto">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="/#features" class="nav-link scrollto">Features</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="/#pricing" class="nav-link scrollto">Pricing</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="/#contact" class="nav-link scrollto">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="/#faq" class="nav-link scrollto">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="/help" class="nav-link scrollto">Help</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero" class="nav-link scrollto">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero" class="nav-link scrollto">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero" class="nav-link scrollto">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero" class="nav-link scrollto">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>To get all the latest news about WEMR </p>
+
+          <%= bootstrap_form_for @contact  do |f| %>
+            <div class="newsletter">
+            <%= f.email_field :email, placeholder: "Your Email", skip_label: true, required: true %>
+            <%= f.hidden_field :subject, value: "Newsletter subscription" %>
+            <%= f.primary "Subscribe", class: "btn btn-primary"   %>
+            </div>
+          <% end %>
+
+          </div>
+        </div>

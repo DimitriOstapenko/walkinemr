@@ -1,0 +1,11 @@
+<div class='pt-5'></div>
+<div class='pt-5'></div>
+<div class='pt-5'></div>
+<div class='pt-5'></div>
+
+<%= bootstrap_form_with url: contacts_url do |f| %>
+  <%= f.email_field :email %>
+  <%= f.password_field :password %>
+  <%= f.check_box :remember_me %>
+  <%= f.submit "Log In" %>
+<% end %>
