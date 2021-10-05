@@ -145,7 +145,7 @@
           </div>
 
           <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>Your staff, doctors and patients all share the same data, but have different views and access rights </h3>
+            <h3>Your staff, doctors and patients all share the same data with different views and access rights </h3>
             <p class="fst-italic">
               Four different roles allow for flexible and customized  access to shared data. 
             </p>
@@ -155,7 +155,6 @@
               <li><i class="bx bx-check-double"></i> <b>Doctor</b> through customized pages doctors have full access to their patients data, and can generate their personal reports,  but cannot perform any administrative functions.</li>
               <li><i class="bx bx-check-double"></i> <b>Patient</b> can view their own chart, medications, prescriptions and can book an online visit. The rest of the functionality is disabled.</b> 
             </ul>
-            Administrator is in charge of assigning roles to users. Roles can be reassigned any time.
           </div>
           <div class="pt-5"></div>
             <p>
@@ -268,8 +267,7 @@
         <div class="text-center">
           <h3>Request a Demo</h3>
           <p> The best way to learn about features of the system and to discover how easy it is to use is to see it in action. We are ready to provide you with fully functional demo and let you go through all steps, from patient registration to billing submission. And the best part is that now downloads or installations are required. All you need to use WEMR is a web browser. </p>
-          <a class="cta-btn  scrollto" href="#contact">Request Demo Now</a>
-          <a class="cta-btn  scrollto" href="#contact">Request Demo Now</a>
+          <a class="cta-btn  scrollto" href="#hero">Request Demo Now</a>
         </div>
       </div>
     </section><!-- End Cta Section -->
@@ -428,7 +426,7 @@ It's very straightforward process actually. Once patient is registered in the sy
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Please email or call us to request further information or to arrange a demo </p>
+          <p>Please email or call us for further information or to arrange a demo </p>
         </div>
 
         <div>
@@ -467,7 +465,6 @@ It's very straightforward process actually. Once patient is registered in the sy
             <%= render "contact_form" %>
 
           </div>
-        </div>
         </div>
       </div>
     </section><!-- End Contact Section -->
